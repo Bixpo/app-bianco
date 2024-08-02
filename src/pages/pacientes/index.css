@@ -1,0 +1,59 @@
+/* Estilos personalizados para a tabela de pacientes */
+
+.pacientes-container {
+    padding: 20px;
+  }
+  
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pacientes-table {
+    background-color: #ffffff;
+  }
+  
+  .pacientes-table th,
+  .pacientes-table td {
+    vertical-align: middle !important;
+  }
+  
+  .pacientes-table .action-btn {
+    margin-right: 5px;
+  }
+  
+/* index.css */
+.pacientes-container {
+  padding: 20px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 250px;
+  margin-left: 15px;
+}
+
+.action-btn {
+  margin-right: 5px;
+}
+
+.loading-spinner,
+.sending-spinner-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sending-spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+}
